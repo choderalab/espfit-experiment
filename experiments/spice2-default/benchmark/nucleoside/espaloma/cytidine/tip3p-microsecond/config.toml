@@ -1,0 +1,13 @@
+# System setup parameters
+[sampler.setup]
+target_class = "nucleoside"
+target_name = "cytidine"
+water_model = "tip3p"
+solvent_padding = "12.0 * angstroms"
+ionic_strength = "0.005 * molar"   # 5 mM NaCl
+temperature = "303.15 * kelvin"    # 30 C
+maxIterations = 100
+nsteps = 250000000   # 4 fs * 125 000 000 = 500 ns
+checkpoint_frequency = 250000   # 4 fs * 250000 = 1000 ps
+logging_frequency = 250000
+netcdf_frequency = 250000
