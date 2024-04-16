@@ -53,7 +53,7 @@ For example, for `openff-default`, the QC data in `data/` is gathered by soft li
     >bsub < lsf-submit.sh  
 
     >\# plot validation loss and find the best model using early stopping  
-    >\# saves the best model as `ckpt.pt` 
+    >\# saves the best model as `ckpt.pt`  
     >python plot.py > plot.log
 
 - Compute RMSE metrics of QC energies and forces (`train/metric/`)
