@@ -1,4 +1,4 @@
-# Workspace for espfit
+# Experimental workspace for espfit
 This is a workspace to test and experiment [espfit](https://github.com/choderalab/espfit) which is a refactored version of [refit-espaloma](https://github.com/choderalab/refit-espaloma) to train and validate [espaloma](https://github.com/choderalab/espaloma). 
 Espaloma is an end-to-end differentibale graph neural network framework to parameterize classical molecular mechanics force fields.
 
